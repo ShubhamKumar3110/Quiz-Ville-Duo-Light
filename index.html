@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Exo:ital,wght@1,300&family=Josefin+Slab:ital,wght@1,300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Quiz Ville Duo Light</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <!-- font-family: 'Alegreya Sans', sans-serif; -->
+    <!-- font-family: 'Exo', sans-serif; -->
+    <!-- font-family: 'Josefin Slab', serif; -->
+    <!-- font-family: 'Quicksand', sans-serif; -->
+</head>
+
+<body>
+
+    <div id="bg-image"></div>
+
+    <div id="hamburger-navbar" data-visible="false" data-theme="false">
+        
+        <div class="hamburger-menu">
+
+            <button id="hamburger-toggle"></button>
+
+            <div class="hamburger-lines">
+
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+
+            </div>
+            
+        </div>
+
+        <div id="links">
+
+            <div id="links-heading">
+
+                <span>Settings</span>
+
+            </div>
+
+            <div id="links-item">
+
+                <ul>
+                    <li>
+                        <a href=#>Home</a>
+                    </li>
+                    <li>
+                        <a href=# id="links-theme">Themes</a>
+                    </li>
+                    <li>
+                        <a href=#>Question Sets</a>
+                    </li>
+                    <li>
+                        <a href=#>Answer Sets</a>
+                    </li>
+                    <li>
+                        <a href=#>Logout</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    
+        <div id="themes">
+            
+            <div id="themes-heading">
+
+                <span>Choose a Theme</span>
+
+            </div>
+    
+            <div id="themes-item">
+
+                <button class="theme0" id="theme1" data-no="0" onclick=changeTheme(this) >Theme 1</button>
+                <button class="theme0" id="theme2" data-no="1" onclick=changeTheme(this) >Theme 2</button>
+                <button class="theme0" id="theme3" data-no="2" onclick=changeTheme(this) >Theme 3</button>
+                <button class="theme0" id="theme4" data-no="3" onclick=changeTheme(this) >Theme 4</button>
+                <button class="theme0" id="theme5" data-no="4" onclick=changeTheme(this) >Theme 5</button>
+                <button class="theme0" id="theme6" data-no="5" onclick=changeTheme(this) >Theme 6</button>
+                <button class="theme0" id="theme7" data-no="6" onclick=changeTheme(this) >Theme 7</button>
+                <button class="theme0" id="theme8" data-no="7" onclick=changeTheme(this) >Theme 8</button>
+                <button class="theme0" id="theme9" data-no="8" onclick=changeTheme(this) >Theme 9</button>
+                <button class="theme0" id="theme10" data-no="9" onclick=changeTheme(this) >Theme 10</button>
+
+            </div>
+    
+        </div>
+        
+    </div>
+
+    <div id="heading">
+
+        <h1 class="heading-item">Question Sets</h1>
+
+    </div>
+
+    <section id="sets">
+        
+    </section>
+
+    <script src="index.js"></script>
+    <script src="styling.js"></script>
+</body>
+</html>
